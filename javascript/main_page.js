@@ -1,4 +1,4 @@
-W/*Slider*/
+/*Slider*/
 function main(){
     const slides = document.querySelectorAll('.slide'),
       points = document.querySelectorAll('.point'),
