@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>animate.</title>
+        <link rel="stylesheet" href="../css/main_page.css">
+        <script src = "https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="../javascript/main_page.js"></script>
+        <link class="icon" rel="icon" href = "../images/logo.png" type="image/png">
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    </head>
+    <body>
+        <header class="header">
+            <a class="logo_name" href="index.html">animate.</a>
+            <div class="menu_menu"><a href="#"><img src="../images/menu.png" class="menu_icon"></a></div>
+            <nav class="navigation">
+                <a href="../html/news_page/news_page.html" class="menu newss">новости</a>
+                <a href="../html/history_page/history_page.html" class="menu historyy">история</a>
+                <a href="../html/studio_page/studio_page.html" class="menu studioss">студии</a>
+                <a href="../html/person_page/person_page.html" class="menu personss">люди</a>
+            </nav>
+        </header>
+        <div class="full">
+            <div class="slide-wrapper">
+                <div class="slide active">
+                    <a href="../html/person_page/post_2.html"><img src="../images/slider1.jpg" class = "slide_img"></a>
+                </div>
+                <div class="slide">
+                    <a href="../html/studio_page/post_1.html"><img src="../images/slider2.jpg" class = "slide_img"></a>
+                </div>
+                <div class="slide">
+                    <a href="../html/history_page/post_1.html"><img src="../images/slider3.jpg" class = "slide_img"></a>
+                </div>
+            </div>
+            <div class="points">
+                <span class="point active"></span>
+                <span class="point"></span>
+                <span class="point"></span>
+            </div>
+            <div class="what_read">О чём можно почитать?</div>
+            <div class="about_r">
+                <span class="span_img_l"><img src="../images/2.jpg" class="img_about"></span>
+                <span class="span_text_l">
+                    <div><b class="title_name">О новостях</b><br>В анимации, как и в любой другой сфере нашей жизни, происходит куча всего интересного. Почитать о релизах, планах и событиях можно здесь.</div>
+                    <button class="read_l" onclick="to_news()">Читать</button>
+                </span>
+            </div>
+            <div class="about_l">
+                <span class="span_text_r">
+                    <div><span class="title_name">Об истории</span><br>О первом оптическом театре, методах создания первой анимации, первых мультфильмах и о многом другом можно прочитать здесь.</div>
+                    <button class="read_r" onclick="to_history()">Читать</button>
+                </span>
+                <span class="span_img_r"><img src="../images/1.jpg"></span>
+            </div>
+            <div class="about_r">
+                <span class="span_img_l"><img src="../images/3.jpg"></span>
+                <span class="span_text_l">
+                    <div><b class="title_name">О студиях</b><br>Анимационные студии, их мультфильмы, принесшие известность. И обо всём на свете читать здесь.</div>
+                    <button class="read_l" onclick="to_studio()">Читать</button>
+                </span>
+            </div>
+            <div class="about_l">
+                <span class="span_text_r">
+                    <div><b class="title_name">О людях</b><br>Об интересных историях из жизни известных людей-аниматоров, истории успеха, несбывшихся проектах расскажем тут.</div>
+                    <button class="read_r" onclick="to_person()">Читать</button>
+                </span>
+                <span class="span_img_r"><img src="../images/4.jpg" class="img_about"></span>
+            </div>
+        </div>
+        <div class="not_full">
+            <nav>
+                <a href="../html/news_page/news_page.html" class="mini menu newss">новости</a>
+                <a href="../html/history_page/history_page.html" class="mini menu historyy">история</a>
+                <a href="../html/studio_page/studio_page.html" class="mini menu studioss">студии</a>
+                <a href="../html/person_page/person_page.html" class="mini menu personss">люди</a>
+            </nav>
+        </div>
+        <footer class="footer">
+            <p class="foot_info">a.</p>
+            <p class="rights">all rights reserved.</p>
+        </footer>
+    </body>
+</html>

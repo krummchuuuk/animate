@@ -1,0 +1,8 @@
+@import url("../css/main_page.css");
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
